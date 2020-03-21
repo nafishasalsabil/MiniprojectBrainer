@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB"
+    tools:context=".Main4Activity">
+    <TableRow
+        android:id="@+id/title"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:text="Correct answers"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Questions"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Answers"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/row3"
+        android:background="#AFEEEE	"
+        >
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1+2"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/row4"
+        android:background=" #E0FFFF"
+        >
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="10*3"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="30"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/row5"
+        android:background="#AFEEEE	"
+        >
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="20/5"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="4"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/row6"
+        android:background="#E0FFFF"
+        >
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="10-7"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AFEEEE	">
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="17+6"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="23"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/white"
+        android:text="Finish"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+</TableLayout>
