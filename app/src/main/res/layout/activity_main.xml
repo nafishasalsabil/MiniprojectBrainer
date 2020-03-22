@@ -4,19 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="251dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="163dp"
+        android:src="@drawable/quiz2"></ImageView>
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="309dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="#ADFF2F"
-        android:text="QUIZ GAME"
-        android:textColor="@android:color/white"
-        android:textSize="100dp" />
+        android:layout_height="120dp"
+        android:text="Brainer"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/button3"
@@ -26,13 +35,13 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="393dp"
-        android:layout_marginEnd="107dp"
-        android:layout_marginRight="107dp"
-        android:backgroundTint="@android:color/white"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@android:color/holo_blue_light"
         android:shadowColor="@android:color/black"
         android:text="Start"
-        android:textColor="#ADFF2F"
+        android:textColor="@android:color/white"
         android:textSize="20dp"
         android:textStyle="bold" />
 </RelativeLayout>
